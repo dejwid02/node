@@ -4,7 +4,7 @@ const notes = require('../models/notes-memory');
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
-  let keylist =await notes.keylist();
+  let keylist = await notes.keylist();
   let keyPromises =  keylist.map(key=> { return notes.read(key)});
 
   var notelist = await Promise.all(keyPromises);
