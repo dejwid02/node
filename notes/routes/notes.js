@@ -11,7 +11,14 @@ res.render('noteedit', {
     note: undefined
 })
 })
-
+router.get('/view', async (req, res, next) => {
+    var note =await notes.read(req.query.key);
+    res.render('noteview', {
+        title: note ? note.title : "",
+        notekey: req.query.key,
+        note: note
+    });
+});
 router.post('/save', async(req, res, next) => {
     var note;
     if(req.body.docreate === 'create'){
