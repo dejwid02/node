@@ -39,8 +39,8 @@ router.get('/destroy', async (req, res, next) => {
     });
 });
 
-router.post('destroy/confirm', async (req, res, next) => {
-    await notes.destroy(req.body.notekey);
+router.post('/destroy/confirm', async (req, res, next) => {
+    await notes.delete(req.body.notekey);
     res.redirect('/');
 })
 router.post('/save', async(req, res, next) => {
