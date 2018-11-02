@@ -23,7 +23,7 @@ router.get('/view', async (req, res, next) => {
 router.get('/edit', async (req, res, next) => {
     var note = await notes.read(req.query.key);
     res.render('noteedit', {
-        title: note ? ("Edit" + note.title) : "Add a note",
+        title: note ? ("Edit " + note.title) : "Add a note",
         docreate: false,
         notekey: req.query.key,
         note: note
