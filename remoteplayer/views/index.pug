@@ -1,17 +1,8 @@
 extends layout
 block content
-  h1(style='text-align: center') #{title}
-  .card.text-center
-    .card-header
-      ul.nav.nav-pills.card-header-pills
-        li.nav-item
-          a.nav-link.active(href='#') Polskie 
-        li.nav-item
-          a.nav-link(href='#') Zagraniczne
-    each station in Stations
-      .card-block
-        h5.card-title #{station.Name}
-        img.card-img-top(src=''+station.ImageUrl alt='rysunek' style={width:'200px'})
-        p.card-text bla bla bla bla bla
-        a.btn.btn-primary(href='/play/' + station.Id style={margin: '10px'}) Play station
-        br
+  app-stationslist  
+block scripts
+  script(src='/build/es2015-polyfills.41976a8133a2445ac0d9.js')
+  script(src='/build/polyfills.f1a86b50434b1a515c5a.js')
+  script(src='/build/main.76da8d59f87830f2d0d2.js') 
+  script(src='/build/runtime.b57bf819d5bdce77f1c7.js')

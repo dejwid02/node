@@ -15,7 +15,8 @@
     "jquery": "^3.3.1",
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
