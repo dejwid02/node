@@ -1,6 +1,8 @@
+
 const player = require('../Services/MediaPlayerService');
 
 const Station = require('../model/Station');
+
 
 const stations = [
   new Station(0, 'PR1', 'http://stream3.polskieradio.pl:8900', 'http://www.portalmedialny.pl/media/images/original/md5/e/c/ec4de4217b056cb7a3fb73dd7ce94135/polskie_radio_30.jpg', 'Polskie'),
@@ -16,10 +18,20 @@ const stations = [
   new Station(10, 'WDR2', 'http://addrad.io/4WRNvc', 'https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg', 'Zagraniczne'),
 ];
 
+function groupBy(objectArray, property) {
+  return objectArray.reduce((acc, obj) => {
+    const key = obj[property];
+    if (!acc[key]) {
+      acc[key] = [];
+    }
+    acc[key].push(obj);
+    return acc;
+  }, {});
+}
 const homeList = (req, res) => {
   res.render('index', {
     title: 'Express',
-    Stations: stations,
+    Stations: groupBy(stations, 'Category').Zagraniczne,
   });
 };
 

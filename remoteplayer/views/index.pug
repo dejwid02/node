@@ -1,12 +1,17 @@
 extends layout
-
 block content
   h1(style='text-align: center') #{title}
-  each station in Stations
-    .card
-      .card-block.text-center
+  .card.text-center
+    .card-header
+      ul.nav.nav-pills.card-header-pills
+        li.nav-item
+          a.nav-link.active(href='#') Polskie 
+        li.nav-item
+          a.nav-link(href='#') Zagraniczne
+    each station in Stations
+      .card-block
         h5.card-title #{station.Name}
         img.card-img-top(src=''+station.ImageUrl alt='rysunek' style={width:'200px'})
         p.card-text bla bla bla bla bla
         a.btn.btn-primary(href='/play/' + station.Id style={margin: '10px'}) Play station
-    br
+        br
