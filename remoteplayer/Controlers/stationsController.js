@@ -36,16 +36,13 @@ const homeList = (req, res) => {
 };
 
 const playStation = (req, res) => {
-  player.play(stations[req.params.id].Url);
-  res.render('playing',
-    {
-      title: `Im playing ${stations[req.params.id].Name}`,
-    });
+  player.play(req.params.url);
+  res.redirect('/');
 };
 
 const stopPlaying = (req, res) => {
   player.stop();
-  res.render('index', { title: 'Im playing' });
+  res.redirect('/');
 };
 
 module.exports = {

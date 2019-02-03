@@ -11,6 +11,6 @@
 <div *ngFor="let station of stations" class="card-block">
   <h5 class="card-title">{{station.name}}</h5>
   <img class="card-img-top" src={{station.imageUrl}} alt="rysunek" style="width:200px;">
-  <p class="card-text">bla bla bla bla bla</p><a class="btn btn-primary" href="http://localhost:3000/play/1" style="margin:10px;">Play station</a>
+  <p class="card-text">bla bla bla bla bla</p><a class="btn btn-primary" href="http://localhost:3000/play/{{station.url}}" style="margin:10px;">Play stationa</a>
   <br>
 </div>
