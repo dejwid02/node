@@ -27,8 +27,11 @@ export class StationslistComponent implements OnInit {
     ]
 
   playStation(station: Station) {
-    location.href='http://localhost:3000/play/' + encodeURIComponent(station.url);
-    
+    location.href='http://localhost:3000/play/' + encodeURIComponent(station.url);  
+  }
+
+  stopStation(station: Station) {
+    location.href='http://localhost:3000/stop';  
   }
   ngOnInit() {
   }
