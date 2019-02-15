@@ -1,14 +1,11 @@
 <div class="card-header">
   <ul class="nav nav-pills card-header-pills">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Polskie </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Zagraniczne</a>
+    <li  class="nav-item" *ngFor="let category of categories">
+      <a href="#" [ngClass] = "{'nav-link': true, 'active': category===selectedCategory}" (click)="!!setCategory(category)">{{category}}</a>
     </li>
   </ul>
 </div>
-<div *ngFor="let station of stations" class="card-block">
+<div *ngFor="let station of visibleStations" class="card-block">
   <h5 class="card-title">{{station.name}}</h5>
   <img class="card-img-top" src={{station.imageUrl}} alt="rysunek" style="width:200px;" />
   
