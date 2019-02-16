@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { PlayerService } from '../player-service.service';
 export class Station {
   id: Number;
   name: string;
@@ -14,7 +14,7 @@ export class Station {
 })
 export class StationslistComponent implements OnInit {
 
-  constructor() { }
+  constructor(private playerService: PlayerService) { }
   
   stations: Station[] = [
     {
@@ -147,11 +147,12 @@ setCategory(newCategory:string) {
   this.visibleStations = this.stations.filter(station=>station.category===this.selectedCategory);
 }
 playStation(station: Station) {
-    location.href='http://localhost:3000/play/' + encodeURIComponent(station.url);  
+  this.playerService.play(station.url);  
+  //location.href='http://localhost:3000/play/' + encodeURIComponent(station.url);  
   }
 
   stopStation(station: Station) {
-    location.href='http://localhost:3000/stop';  
+    this.playerService.stop();
   }
   ngOnInit() {
   }
