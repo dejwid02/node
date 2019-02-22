@@ -1,7 +1,7 @@
 
 const player = require('../Services/MediaPlayerService');
 
-const Station = require('../model/Station');
+const Station = require('../app_api/models/Station');
 
 
 const stations = [
