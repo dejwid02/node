@@ -8,7 +8,7 @@ import { Station } from './stationslist/stationslist.component';
 })
 export class StationsDataService {
 
-  private baseUrl:string = 'http://localhost:3000';
+  private baseUrl:string = 'http://192.168.1.200:3000';
   
   constructor(private http: HttpClient) { }
 
