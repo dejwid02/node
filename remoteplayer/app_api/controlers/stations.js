@@ -1,6 +1,7 @@
 const stationsDataGateway = require('../models/JsonLoader');
 const Station = require('../models/Station');
-
+const path = require('path');
+const filePath = path.join(__dirname, 'stations.json');
 const stationsArray = [
   new Station(0, 'PR1', 'http://stream3.polskieradio.pl:8900', 'http://www.portalmedialny.pl/media/images/original/md5/e/c/ec4de4217b056cb7a3fb73dd7ce94135/polskie_radio_30.jpg', 'Polskie'),
     new Station(1, 'BBC Radio 1', 'http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p', 'https://ichef.bbci.co.uk/images/ic/640x360/p02lrp2x.jpg', 'Zagraniczne'),
@@ -15,10 +16,11 @@ const stationsArray = [
     new Station(10, 'WDR2', 'http://addrad.io/4WRNvc', 'https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg', 'Zagraniczne'),
   ];
 
-  stationsDataGateway.saveStations(stationsArray, '../models/stations.json');
-
 const stationsList = (req, res) => {
-    var stations = JSON.parse()
+  const stations = stationsDataGateway.loadStations(filePath);
+  res
+    .status(200)
+    .json(stations);
 };
 
 module.exports = {

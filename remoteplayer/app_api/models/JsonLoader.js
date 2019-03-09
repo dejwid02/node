@@ -1,7 +1,10 @@
 const fs = require('fs');
+const path = require('path');
+const Station = require('./Station');
 
 const loadStations = (filePath) => {
   const stations = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  console.log(`Loaded stations: ${stations}`);
   return stations;
 };
 

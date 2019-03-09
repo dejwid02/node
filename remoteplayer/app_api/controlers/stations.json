@@ -1,0 +1,12 @@
+[
+    {"name":"PR1","url":"http://stream3.polskieradio.pl:8900","imageUrl":"http://www.portalmedialny.pl/media/images/original/md5/e/c/ec4de4217b056cb7a3fb73dd7ce94135/polskie_radio_30.jpg","id":0,"category":"Polskie"},
+    {"name":"BBC Radio 1","url":"http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p","imageUrl":"https://ichef.bbci.co.uk/images/ic/640x360/p02lrp2x.jpg","id":1,"category":"Zagraniczne"},
+    {"name":"BBC Radio 2","url":"http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p","imageUrl":"http://www.bbc.co.uk/staticarchive/10baa75eb508c2fc07f6245cfba0a8b958dab13f.jpg","id":2,"category":"Zagraniczne"},
+    {"name":"BBC Radio 3","url":"http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p","imageUrl":"https://ichef.bbci.co.uk/images/ic/480xn/p029jbdz.jpg","id":3,"category":"Zagraniczne"},
+    {"name":"BBC Radio 6 music","url":"http://bbcmedia.ic.llnwd.net/stream/bbcmedia_6music_mf_p","imageUrl":"http://radio.nadaje.com/media/images/thumbnail/md5/2/9/29823998bb559cd2cb3f15b79c96ceca/bbc6music.jpg","id":4,"category":"Zagraniczne"},
+    {"name":"ResonanceFM","url":"http://stream.resonance.fm:8000/resonance","imageUrl":"https://pbs.twimg.com/profile_images/914261187818344451/OdOTwXdk.jpg","id":5,"category":"Zagraniczne"},
+    {"name":"Classic FM","url":"http://media-ice.musicradio.com:80/ClassicFMMP3","imageUrl":"https://images-eu.ssl-images-amazon.com/images/I/41i37jMWVqL.png","id":6,"category":"Zagraniczne"},
+    {"name":"Classic102","url":"http://icepool.silvacast.com/KLASSIK1.mp3","imageUrl":"https://cdn-radiotime-logos.tunein.com/s107537q.png","id":7,"category":"Zagraniczne"},
+    {"name":"Koncerty w 3","url":"http://stream85.polskieradio.pl/omniaaxe/k16.stream/playlist.m3u8","imageUrl":"http://static.prsa.pl/images/e3c67c19-fdc3-4ab2-909d-6b3ff40c3a3d.jpg","id":8,"category":"Polskie"},
+    {"name":"OE3","url":"http://185.85.29.166:8000","imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/1200px-Hitradio_%C3%963.svg.png","id":9,"category":"Zagraniczne"},
+    {"name":"WDR2","url":"http://addrad.io/4WRNvc","imageUrl":"https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg","id":10,"category":"Zagraniczne"}]

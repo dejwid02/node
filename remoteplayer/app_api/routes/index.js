@@ -8,3 +8,4 @@ router
   .route('/stations')
   .get(controlerStations.stationsList);
 
+module.exports = router;
