@@ -130,4 +130,39 @@
         "url": "http://online.radiojasnagora.pl:8000/rjg",
         "category": "Chrzescijanskie",
         "name": "Jasna Gora"
+      },
+	   {
+        "id": 17,
+        "imageUrl":"http://www.informatorbrzeski.pl/wp-content/uploads/2012/11/RadioKrakowM-logo.jpg" ,
+        "url": "http://stream4.nadaje.com:9680/radiokrakow-s3",
+        "category": "Polskie",
+        "name": "Radio Krakow"
+      },
+	  {
+        "id": 18,
+        "imageUrl":"https://mamywene.pl/wp-content/uploads/2017/11/radio-gda%C5%84sk-logo.png" ,
+        "url": "http://stream.task.gda.pl:8000/rg2",
+        "category": "Polskie",
+        "name": "Radio Gdansk"
+      },
+	  {
+        "id": 19,
+        "imageUrl":"https://media2.pl/g/750/2832.jpg" ,
+        "url": "http://stream12.polskieradio.pl/pr2/pr2.sdp/playlist.m3u8",
+        "category": "Polskie",
+        "name": "Polskie radio Dwojka"
+      },
+	  {
+        "id": 20,
+        "imageUrl":"https://i1.wp.com/www.franciszkanie.gdansk.pl/wp-content/uploads/2015/02/radioniepokalanow.jpg" ,
+        "url": "http://88.199.169.10:8000/",
+        "category": "Chrzescijanskie",
+        "name": "Radio Niepokalanow"
+      },
+	  {
+        "id": 21,
+        "imageUrl":"https://www.radiowarszawa.com.pl/wp-content/uploads/2016/09/logo_radio_warszawa-300x241.png" ,
+        "url": "http://37.59.53.66:8000/rwarszawa.mp3",
+        "category": "Chrzescijanskie",
+        "name": "Radio Niepokalanow"
       }]
