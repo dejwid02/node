@@ -165,4 +165,11 @@
         "url": "http://37.59.53.66:8000/rwarszawa.mp3",
         "category": "Chrzescijanskie",
         "name": "Radio Niepokalanow"
+      },
+	  {
+        "id": 22,
+        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
+        "url": "http://media-the.musicradio.com:80/SmoothLondonMP3",
+        "category": "Zagraniczne",
+        "name": "Radio Niepokalanow"
       }]
