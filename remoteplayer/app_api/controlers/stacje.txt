@@ -216,58 +216,9 @@
         "name": "WAWA Disco polo"
       },
 	  {
-        "id": 29,
+        "id": 28,
         "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
         "url": "http://stream.nadaje.com:8054/listen.pls",
         "category": "Polskie",
         "name": "Radio RSC"
-      },
-	  {
-        "id": 30,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://pldm.ml/radio.php?id=-1&url=http://www.eskago.pl/radio/eska-goraca-20",
-        "category": "Polskie",
-        "name": "WAWA Disco polo"
-      },
-	  {
-        "id": 31,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://pldm.ml/radio.php?id=-1&url=http://www.eskago.pl/radio/eska-lodz",
-        "category": "Polskie",
-        "name": "ESKA"
-      },
-	  {
-        "id": 32,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://pldm.ml/radio.php?id=-1&url=http://www.eskago.pl/radio/vox-fm",
-        "category": "Polskie",
-        "name": "VOX FM"
-      },
-	  {
-        "id": 33,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://pldm.ml/radio.php?id=-1&url=http://www.eskago.pl/radio/eska-impreska",
-        "category": "Polskie",
-        "name": "ESKA IMPRESKA"
-      },
-	  {
-        "id": 33,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://pldm.ml/radio.php?id=-1&url=http://www.eskago.pl/radio/eska-goraca-100",
-        "category": "Polskie",
-        "name": "ESKA GORACA 100"
-      },
-	  {
-        "id": 34,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://pldm.ml/radio.php?id=-1&url=http://www.eskago.pl/radio/vox-90",
-        "category": "Polskie",
-        "name": "VOX 90"
-      },
-	  {
-        "id": 35,
-        "imageUrl":"http://www.listenradios.com/wp-content/uploads/2012/01/Smooth-Radio-Logo.png" ,
-        "url": "http://www.rmfon.pl/n/rmfclassic.pls",
-        "category": "Polskie",
-        "name": "RMF Classic"
       }]
