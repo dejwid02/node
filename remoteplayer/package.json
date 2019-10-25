@@ -6,21 +6,21 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "acorn": "^6.0.5",
-    "bootstrap": "^4.2.1",
-    "cookie-parser": "~1.4.3",
+    "acorn": "^6.3.0",
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "^1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "morgan": "~1.9.0",
-    "popper.js": "^1.14.6",
+    "popper.js": "^1.16.0",
     "pug": "2.0.0-beta11",
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
